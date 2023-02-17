@@ -13,6 +13,64 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#non -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#non">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Arrivederci"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#si_dice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#si_dice">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Arrivederci"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Buonasera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#cordialità -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#cordialità">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#polarità -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#polarità">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
