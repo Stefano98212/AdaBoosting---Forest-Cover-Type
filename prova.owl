@@ -93,7 +93,14 @@
 
     <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Ciao">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#non"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-7#Arrivederci"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
 </rdf:RDF>
 
 
