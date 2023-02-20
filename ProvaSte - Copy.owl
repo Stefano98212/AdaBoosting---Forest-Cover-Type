@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2023/1/Test"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Address_Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Address_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Address Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un agente, che può essere sia fisico (es. una persona) o sociale (es. una società, un&apos;istituzione).</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Altitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Altitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Altitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Article">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Classe principale che rappresenta un determinato articolo.</rdfs:comment>
+        <rdfs:label xml:lang="it">Articolo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Agent"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta l&apos;autore.</rdfs:comment>
+        <rdfs:label xml:lang="en">Author</rdfs:label>
+        <rdfs:label xml:lang="it">Autore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classse rappresenta la categoria di una destination; viene fornita da Google ed alcuni esempi possono essere: gym, school, store, dentisti etc...</rdfs:comment>
+        <rdfs:label xml:lang="it">Categoria</rdfs:label>
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta le caratteristiche, intese come aspetti, attributi o qualità di un&apos;entità.</rdfs:comment>
+        <rdfs:label xml:lang="it">Caratteristica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Contact_Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Contact_Point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:label xml:lang="en">Contact Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Coordinates_Referenced_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Coordinates_Referenced_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Coordinates Referenced System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Classe principale che rappresenta una determinata destinazione.</rdfs:comment>
+        <rdfs:label xml:lang="it">Destinazione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Classe che rappresenta i dettagli di una destinazione. Es: address, geometry.</rdfs:comment>
+        <rdfs:label xml:lang="en">Destination Details</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#District -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#District">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">District</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Temporal_Entity"/>
+        <rdfs:comment xml:lang="it">Classe utilizzata per rappresentare la durata.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity">
+        <rdfs:comment>Qualsiasi cosa reale, possibile o immaginaria.</rdfs:comment>
+        <rdfs:label>Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_or_Situation"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta l&apos;evento.Es: Business Event</rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+        <rdfs:label xml:lang="it">Evento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_or_Situation"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta la tappa specifica di un evento qualora sia suddiviso in più tappe</rdfs:comment>
+        <rdfs:label xml:lang="en">Event Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_or_Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_or_Situation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta ogni entità che scorre nel tempo. Es. concerti, gare, viaggi etc...</rdfs:comment>
+        <rdfs:label xml:lang="en">Event or Situation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Full_Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Full_Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Full Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Geographical_Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Geographical_Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Geographical Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Geometry_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Geometry_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Geometry Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Hyperlink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Hyperlink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Itinerary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Itinerary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un itinerario. Es: itinerario in bici.</rdfs:comment>
+        <rdfs:label xml:lang="en">Itinerary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Itinerary_UGC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Itinerary_UGC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Itinerary"/>
+        <rdfs:label xml:lang="en">Itinerary UGC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta la lingua in cui ci viene fornito il dato.</rdfs:comment>
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Latitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Latitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Longitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta ogni entità che tende ad essere stabile in un tempo più o meno lungo; es. case, città, organizzazioni, opere d&apos;arte, articoli etc... Gli oggetti tendono a contrapporsi agli eventi che invece scorrono nel tempo.</rdfs:comment>
+        <rdfs:label xml:lang="en">Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Offer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Offer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Event_or_Situation"/>
+        <rdfs:comment xml:lang="it">Classe principale utilizzata per rappresentare l’offerta legata ad un’esperienza.</rdfs:comment>
+        <rdfs:label xml:lang="en">Offer</rdfs:label>
+        <rdfs:label xml:lang="it">Questa entità è priva di attributi perchè in fase di analisi, in attesa delle specifiche dal partner.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Online_Contact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Online_Contact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Contact_Point"/>
+        <rdfs:label xml:lang="en">Online Contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Agent"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta il proprietario di una particolare struttura.</rdfs:comment>
+        <rdfs:label xml:lang="en">Owner</rdfs:label>
+        <rdfs:label xml:lang="it">Proprietario</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Paragraph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Paragraph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Classe utilizzata per rappresentare il paragrafo di un determinato articolo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Payment_Methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Payment_Methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Classe utilizzata per rappresentare il metodo di pagamento disponibile.</rdfs:comment>
+        <rdfs:label xml:lang="en">Payment Methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Postal_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Postal_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Postal Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Price_Specification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Price_Specification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta le specifiche di prezzo di una particolare offerta</rdfs:comment>
+        <rdfs:label xml:lang="en">Price Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Province -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Province">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#PrtnerRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#PrtnerRecord">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:label xml:lang="en">PartnerRecord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Quantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Quantity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta una determinata quantità.</rdfs:comment>
+        <rdfs:label xml:lang="en">Quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:comment xml:lang="it">Es: Piemonte, Lombardia</rdfs:comment>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta la risorsa di un articolo.</rdfs:comment>
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Sponsor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Sponsor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Organization"/>
+        <rdfs:label xml:lang="en">Sponsor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:comment xml:lang="it">Classe utilizzata per rappresentare lo stage di un determinato itinerario.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Stage_Itinerary_UGC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Stage_Itinerary_UGC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Object"/>
+        <rdfs:label xml:lang="en">Stage Itinerary UGC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Street_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Street_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Street Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Street_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Street_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Destination_Details"/>
+        <rdfs:label xml:lang="en">Street Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Temporal_Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Temporal_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Entity"/>
+        <rdfs:comment xml:lang="it">Classe che rappresenta un&apos;entità di natura temporale.</rdfs:comment>
+        <rdfs:label xml:lang="en">Temporal Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#User_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#User_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta la tipologia di persone per la quale è stata pensata l&apos;offerta. Es: coppie, famiglie etc..</rdfs:comment>
+        <rdfs:label xml:lang="en">User Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Validity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Validity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/s.a.de.filippis/ontologies/2023/1/Test#Characteristic"/>
+        <rdfs:comment xml:lang="it">Classe utilizzata per rappresentare il periodo in cui l’offerta è usufruibile.</rdfs:comment>
+        <rdfs:label xml:lang="en">Validity</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
