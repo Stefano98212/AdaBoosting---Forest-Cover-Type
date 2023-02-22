@@ -12,8 +12,18 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Event"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#Offer"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Offer"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
 </Ontology>
 
 
