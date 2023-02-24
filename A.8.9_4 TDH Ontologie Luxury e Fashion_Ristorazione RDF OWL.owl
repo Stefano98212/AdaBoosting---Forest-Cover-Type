@@ -14,9 +14,6 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#AEMTags"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Article"/>
     </Declaration>
     <Declaration>
@@ -66,6 +63,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#addressArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aemTags"/>
     </Declaration>
     <Declaration>
         <Class IRI="#agent"/>
@@ -767,14 +767,10 @@
             <Class IRI="#eventOrSituation"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#hasTags"/>
-                <Class IRI="#AEMTags"/>
+                <Class IRI="#aemTags"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="#AEMTags"/>
-        <Class IRI="#Characteristic"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Article"/>
         <Class IRI="#entity"/>
@@ -1564,6 +1560,10 @@
     <SubClassOf>
         <Class IRI="#addressArea"/>
         <Class IRI="#destinationDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aemTags"/>
+        <Class IRI="#Characteristic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#agent"/>
@@ -3135,14 +3135,59 @@
         <Literal>additional information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#additionalManualTags</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta i tags aggiunti manualmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#additionalManualTags</IRI>
+        <Literal xml:lang="en">This class represents the tags added manually.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#additionalManualTags</IRI>
+        <Literal>Additional Manual Tags</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#addressArea</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta il nome di un&apos;area geografica o di una località.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#addressArea</IRI>
+        <Literal xml:lang="en">This class represents the name of a geographical area or a location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#addressArea</IRI>
         <Literal>Address Area</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aemTags</IRI>
+        <Literal>Aem Tags</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#agent</IRI>
         <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aiChosenTags</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta i tags raggiunti tramite l&apos;intelligenza artificiale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aiChosenTags</IRI>
+        <Literal xml:lang="en">This class represents tags reached through artificial intelligence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aiChosenTags</IRI>
+        <Literal>Ai Chosen Tags</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
