@@ -71,9 +71,6 @@
         <Class IRI="#agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#aiChosenTags"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#altitude"/>
     </Declaration>
     <Declaration>
@@ -1568,10 +1565,6 @@
     <SubClassOf>
         <Class IRI="#agent"/>
         <Class IRI="#Object"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#aiChosenTags"/>
-        <Class IRI="#Characteristic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#altitude"/>
@@ -3177,17 +3170,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#aiChosenTags</IRI>
-        <Literal xml:lang="it">Questa classe rappresenta i tags raggiunti tramite l&apos;intelligenza artificiale.</Literal>
+        <Literal xml:lang="it">Questa proprietà rappresenta i tags scelti tramite l&apos;intelligenza artificiale.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#aiChosenTags</IRI>
-        <Literal xml:lang="en">This class represents tags reached through artificial intelligence.</Literal>
+        <Literal xml:lang="en">This property represents the tags chosen through the artificial intelligence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#aiChosenTags</IRI>
-        <Literal>Ai Chosen Tags</Literal>
+        <Literal xml:lang="en">aiChosenTags</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
