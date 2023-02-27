@@ -3032,6 +3032,11 @@
         <Literal xml:lang="it">Autore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Category</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la categoria di una destination; viene fornita da Google e alcuni esempi possono essere: gym,school,store,dentist etc..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Category</IRI>
         <Literal xml:lang="it">Categoria</Literal>
@@ -3042,12 +3047,7 @@
         <Literal xml:lang="en">Category</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Category</IRI>
-        <Literal xml:lang="it">Questa classe rappresenta la categoria di una destination; viene fornita da Google e alcuni esempi possono essere: gym,school,store,dentist etc..</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Destination</IRI>
         <Literal xml:lang="it">Classe principale utilizzata per rappresentare la destinazione.</Literal>
     </AnnotationAssertion>
@@ -3067,6 +3067,11 @@
         <Literal xml:lang="en">Linked Destinations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hyperlink</IRI>
+        <Literal xml:lang="en">Hyperlink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Language</IRI>
         <Literal xml:lang="it">Questa classe rappresenta la lingua in cui ci viene fornito il dato.</Literal>
@@ -3078,23 +3083,49 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Language</IRI>
+        <Literal xml:lang="it">Lingua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Object</IRI>
-        <Literal>Object</Literal>
+        <Literal xml:lang="it">Ogni entità che tende a essere stabile in un tempo più o meno lungo, sia nel mondo fisico sia sociale. Gli esempi includono case, città, organizzazioni, opere d&apos;arte, oggetti del mondo naturale, artefatti, parole, idee, etc.
+GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, aggregando oggetti diversi nel loro scorrere, come accade per esempio nei processi industriali o atmosferici, nelle attività di lavoro, viaggio o divertimento, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="en">Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="it">Oggetto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Offer</IRI>
-        <Literal>Classe principale utilizzata per rappresentare l’offerta legata ad un’esperienza.</Literal>
+        <Literal xml:lang="it">Classe principale utilizzata per rappresentare l’offerta legata ad un’esperienza. Questa entità è priva di attributi perchè in fase di analisi, in attesa delle specifiche dal partner.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Offer</IRI>
-        <Literal>Offer</Literal>
+        <Literal xml:lang="en">Offer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Offer</IRI>
-        <Literal xml:lang="it">Questa entità è priva di attributi perchè in fase di analisi, in attesa delle specifiche dal partner.</Literal>
+        <Literal xml:lang="it">Offerta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organization</IRI>
+        <Literal xml:lang="en">Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organization</IRI>
+        <Literal xml:lang="it">Persona giuridica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3103,13 +3134,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Paragraph</IRI>
+        <Literal xml:lang="it">Paragrafo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Paragraph</IRI>
+        <Literal xml:lang="en">Paragraph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Spnsor</IRI>
-        <Literal>Sponsor</Literal>
+        <Literal xml:lang="en">Sponsor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spnsor</IRI>
+        <Literal xml:lang="it">Sponsor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Stage</IRI>
-        <Literal xml:lang="it">Classe utilizzata per rappresentare lo stage di un determinato itinerario.</Literal>
+        <Literal xml:lang="it">Classe utilizzata per rappresentare la tappa di un determinato itinerario.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stage</IRI>
+        <Literal xml:lang="en">Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stage</IRI>
+        <Literal xml:lang="it">Tappa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3117,7 +3173,7 @@
         <Literal>URL</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UserType</IRI>
         <Literal xml:lang="it">Questa classe rappresenta la tipologia di persone per la quale è stata pensata l&apos;offerta. Es: coppie, famiglie etc..</Literal>
     </AnnotationAssertion>
@@ -3159,7 +3215,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#addressArea</IRI>
-        <Literal>Address Area</Literal>
+        <Literal xml:lang="en">Address Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#addressArea</IRI>
+        <Literal xml:lang="it">Area dell&apos;Indirizzo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3170,6 +3231,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#agent</IRI>
         <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#agent</IRI>
+        <Literal xml:lang="it">Agente</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3189,17 +3255,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#altitude</IRI>
-        <Literal>Altitude</Literal>
+        <Literal xml:lang="en">Altitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#altitude</IRI>
+        <Literal xml:lang="it">Altitudine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#city</IRI>
-        <Literal>City</Literal>
+        <Literal xml:lang="it">Città</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#city</IRI>
+        <Literal xml:lang="en">City</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#contactPoint</IRI>
-        <Literal>Contact Point</Literal>
+        <Literal xml:lang="en">Contact Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contactPoint</IRI>
+        <Literal xml:lang="it">Punto di contatto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3209,7 +3290,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#country</IRI>
-        <Literal>Country</Literal>
+        <Literal xml:lang="en">Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#country</IRI>
+        <Literal xml:lang="it">Stato</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3219,7 +3305,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#destinationDetails</IRI>
-        <Literal>Classe che rappresenta i dettagli di una destinazione. Es: address, geometry.</Literal>
+        <Literal xml:lang="it">Classe che rappresenta i dettagli di una destinazione. Es: address, geometry.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3228,8 +3314,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#destinationDetails</IRI>
+        <Literal xml:lang="it">Dettagli destinazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#district</IRI>
-        <Literal>District</Literal>
+        <Literal xml:lang="en">District</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#district</IRI>
+        <Literal xml:lang="it">Municipio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#district</IRI>
+        <Literal xml:lang="it">Quartiere</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3239,7 +3340,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#duration</IRI>
-        <Literal>Duration</Literal>
+        <Literal xml:lang="it">Durata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#duration</IRI>
+        <Literal xml:lang="en">Duration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3252,14 +3358,19 @@
         <Literal>end datetime</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#entity</IRI>
+        <Literal xml:lang="it">Qualsiasi cosa reale, possibile o immaginaria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#entity</IRI>
         <Literal xml:lang="en">Entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#event</IRI>
-        <Literal xml:lang="it">Evento</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#entity</IRI>
+        <Literal xml:lang="it">Entità</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3269,7 +3380,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#event</IRI>
-        <Literal>Event</Literal>
+        <Literal xml:lang="en">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#event</IRI>
+        <Literal xml:lang="it">Evento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3277,9 +3393,21 @@
         <Literal>event abstract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#eventOrSituation</IRI>
+        <Literal xml:lang="it">Ogni entità che tipicamente scorre nel tempo, sia nel mondo fisico sia sociale. Gli esempi includono fenomeni atmosferici, concerti, viaggi, processi istituzionali, etc.
+La classe rappresenta anche un &quot;contesto relazionale&quot; creato da un osservatore sulla base di un &quot;frame&quot; (cioè una Descrizione).
+Gli eventi si oppongono agli oggetti, poiché, mentre gli eventi scorrono nel tempo e aggregano uno o più oggetti nel loro scorrerre, gli oggetti tendono a essere stabili in un intervallo di tempo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#eventOrSituation</IRI>
         <Literal xml:lang="en">Event or Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eventOrSituation</IRI>
+        <Literal xml:lang="it">Evento o situazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3292,24 +3420,59 @@
         <Literal>event title</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fullAddress</IRI>
+        <Literal xml:lang="it">Indirizzo completo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fullAddress</IRI>
+        <Literal xml:lang="it">L&apos;indirizzo completo scritto come una stringa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#fullAddress</IRI>
-        <Literal>Full Address</Literal>
+        <Literal xml:lang="en">Full Address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#geographicalDistribution</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta la ripartizione geografica del territorio italiano. Essa assume i valori predefiniti definiti nel seguente vocabolario controllato https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#geographicalDistribution</IRI>
-        <Literal>Geographical Distribution</Literal>
+        <Literal xml:lang="en">Geographical Distribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geographicalDistribution</IRI>
+        <Literal xml:lang="it">Ripartizione Geografica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#geometryType</IRI>
+        <Literal xml:lang="it">La classe rappresenta il tipo di geometria. Attualmente, la classe asusme questi valori: poligono, linea, punto, riquadro.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#geometryType</IRI>
-        <Literal>Geometry type</Literal>
+        <Literal xml:lang="en">Geometry type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geometryType</IRI>
+        <Literal xml:lang="it">Tipo Geometria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAddress</IRI>
+        <Literal xml:lang="it">ha indirizzo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAddress</IRI>
-        <Literal>has address</Literal>
+        <Literal xml:lang="en">has address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3488,6 +3651,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#idStageUGC</IRI>
+        <Literal xml:lang="en">id StageUGC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#imagecredit</IRI>
         <Literal xml:lang="en">image Credit</Literal>
     </AnnotationAssertion>
@@ -3509,7 +3677,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ineligibleRegions</IRI>
-        <Literal>Ineligible Regions</Literal>
+        <Literal xml:lang="en">Ineligible Regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ineligibleRegions</IRI>
+        <Literal xml:lang="it">Regioni non-ammissibili</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3534,12 +3707,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#itinerary</IRI>
-        <Literal>Questa classe rappresenta un itinerario. Es: itinerario in bici.</Literal>
+        <Literal xml:lang="it">Questa classe rappresenta un itinerario. Es: itinerario in bici.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#itinerary</IRI>
-        <Literal>Itinerary</Literal>
+        <Literal xml:lang="it">Itinerario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#itinerary</IRI>
+        <Literal xml:lang="en">Itinerary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#itineraryUGC</IRI>
+        <Literal xml:lang="it">Itinerario UGC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3564,7 +3747,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#latitude</IRI>
-        <Literal>Latitude</Literal>
+        <Literal xml:lang="en">Latitude</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3577,9 +3760,19 @@
         <Literal xml:lang="it">Questa classe rappresenta la latitudine di una destinazione.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="it">Classe che rappresenta il concetto di luogo. Le istanze di questa classe possono essere entità di qualsiasi tipo intese come luogo di qualcos&apos;altro: luoghi geografici, coordinate, contenitori, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#location</IRI>
         <Literal xml:lang="en">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="it">Luogo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3589,7 +3782,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#longitude</IRI>
-        <Literal>Longitude</Literal>
+        <Literal xml:lang="en">Longitude</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3639,7 +3832,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#onlineContact</IRI>
-        <Literal>Online Contact</Literal>
+        <Literal xml:lang="en">Online Contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#onlineContact</IRI>
+        <Literal xml:lang="it">Punto di Contatto Online</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#onlineContact</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta un punto di contatto online. Essa raggruppa un insieme di tipi di canali di contatto online come account di social network, email, siti web, ecc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3664,7 +3867,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#owner</IRI>
-        <Literal>Owner</Literal>
+        <Literal xml:lang="en">Owner</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3684,12 +3887,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#paymentMethods</IRI>
-        <Literal>Payment Methods</Literal>
+        <Literal xml:lang="it">Metodo di pagamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#paymentMethods</IRI>
+        <Literal xml:lang="en">Payment Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#postalCode</IRI>
+        <Literal xml:lang="it">Codice avviamento postale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#postalCode</IRI>
-        <Literal>Postal Code</Literal>
+        <Literal xml:lang="it">CAP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#postalCode</IRI>
+        <Literal xml:lang="en">Postal Code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3722,9 +3940,24 @@
         <Literal xml:lang="en">primary tag</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#province</IRI>
+        <Literal xml:lang="it">La classe rappresenta la componente Provincia o Città Metropolitana.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#province</IRI>
-        <Literal>Province</Literal>
+        <Literal xml:lang="en">Province</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#province</IRI>
+        <Literal xml:lang="it">Provincia o Città Metropolitana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#quantity</IRI>
+        <Literal xml:lang="it">Quantità</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3734,7 +3967,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#quantity</IRI>
-        <Literal>Quantity</Literal>
+        <Literal xml:lang="en">Quantity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3749,7 +3982,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#region</IRI>
-        <Literal>Region</Literal>
+        <Literal xml:lang="en">Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#region</IRI>
+        <Literal xml:lang="it">Regione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3769,7 +4007,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#source</IRI>
-        <Literal>Source</Literal>
+        <Literal xml:lang="it">Risorsa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#source</IRI>
+        <Literal xml:lang="en">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#spatialObject</IRI>
+        <Literal xml:lang="it">Qualsiasi cosa che può avere una rappresentazione spaziale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#spatialObject</IRI>
+        <Literal xml:lang="it">Oggetto Spaziale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3788,23 +4041,48 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stageItineraryUGC</IRI>
+        <Literal xml:lang="it">Tappa itinerario UGC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#startDateTime</IRI>
         <Literal>start datetime</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#streetName</IRI>
-        <Literal>Street Name</Literal>
+        <Literal xml:lang="it">Nome della strada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#streetName</IRI>
+        <Literal xml:lang="en">Street Name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#streetNumber</IRI>
-        <Literal>Street Number</Literal>
+        <Literal xml:lang="it">Numero civico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#streetNumber</IRI>
+        <Literal xml:lang="en">Street Number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#subTitle</IRI>
         <Literal>subTitle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#temporalEntity</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta un&apos;entità di natura temporale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#temporalEntity</IRI>
+        <Literal xml:lang="it">Entità temporale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3847,9 +4125,14 @@
         <Literal xml:lang="it">Classe utilizzata per rappresentare il periodo in cui l’offerta è usufruibile.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#validity</IRI>
+        <Literal xml:lang="it">Validità</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#validity</IRI>
-        <Literal>Validity</Literal>
+        <Literal xml:lang="en">Validity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
