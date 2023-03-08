@@ -9,6 +9,26 @@
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl">
         <rdfs:label xml:lang="it">TDH022-Ontologia</rdfs:label>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Entity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Entity">
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un&apos;entità</rdfs:comment>
+        <rdfs:label xml:lang="it">Entità</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
