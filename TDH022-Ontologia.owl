@@ -15,6 +15,397 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#hasDestination -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasDestination">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isDestinationOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#hasParagraph -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasParagraph">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isParagraphOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#hasPartnerRecordRestaurant -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasPartnerRecordRestaurant">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isPartnerRecordRestaurantOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#isDestinationOf -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isDestinationOf">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#isParagraphOf -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isParagraphOf"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#isPartnerRecordRestaurantOf -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#isPartnerRecordRestaurantOf">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta i tags che vengono aggiunti ai contenuti in maniera manuale.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional manual tags</rdfs:label>
+        <rdfs:label xml:lang="it">tags aggiunti manualmente</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#addressArea -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#addressArea">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresentà il nome di un&apos;area geograficao di una località.</rdfs:comment>
+        <rdfs:label xml:lang="en">address area</rdfs:label>
+        <rdfs:label xml:lang="it">area dell&apos;indirizzo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la lista di tags forniti da tassonomia.</rdfs:comment>
+        <rdfs:label xml:lang="en">aem tags</rdfs:label>
+        <rdfs:label xml:lang="it">aem tags</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#agent -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#agent">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta l&apos;organizzatore dell&apos;evento.</rdfs:comment>
+        <rdfs:label xml:lang="en">agent</rdfs:label>
+        <rdfs:label xml:lang="it">agente</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta i tags individuati dall&apos;intelligenza artificiale.</rdfs:comment>
+        <rdfs:label xml:lang="en">ai chosen tags</rdfs:label>
+        <rdfs:label xml:lang="it">tags individuati dall&apos;intelligenza artificiale</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#altitude -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#altitude">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta l&apos;altitudine della destinazione.</rdfs:comment>
+        <rdfs:label xml:lang="en">altitude</rdfs:label>
+        <rdfs:label xml:lang="it">altitudine</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#ambienceType -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ambienceType">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la tipologia dell&apos;ambientazione del ristorante offerto dal partner.</rdfs:comment>
+        <rdfs:label xml:lang="en">ambience type</rdfs:label>
+        <rdfs:label xml:lang="it">tipologia ambientazione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#authorImage -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#authorImage">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta l&apos;immagine dell&apos;autore (URL dell&apos;immagine).</rdfs:comment>
+        <rdfs:label xml:lang="en">author image</rdfs:label>
+        <rdfs:label xml:lang="it">immagine dell&apos;autore</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriod -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriod">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta il miglior periodo per svolgere l&apos;itinerario.</rdfs:comment>
+        <rdfs:label xml:lang="en">best period</rdfs:label>
+        <rdfs:label xml:lang="it">miglior periodo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodFrom -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodFrom">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta a partire da quando è il miglior periodo per svolgere l&apos;itinerario.</rdfs:comment>
+        <rdfs:label xml:lang="en">best period from</rdfs:label>
+        <rdfs:label xml:lang="it">miglior periodo da</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodTo -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodTo">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta fino a quando è il miglior periodo per svolgere l&apos;itinerario.</rdfs:comment>
+        <rdfs:label xml:lang="en">best period to</rdfs:label>
+        <rdfs:label xml:lang="it">miglior periodo fino a</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#bookable -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bookable">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="it">Questa properità indica se il ristorante permette la prenotaione tramite widget.</rdfs:comment>
+        <rdfs:label xml:lang="en">bookable</rdfs:label>
+        <rdfs:label xml:lang="it">prenotabile</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#category -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#category">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la categoria della destinazione.</rdfs:comment>
+        <rdfs:label xml:lang="it">categoria</rdfs:label>
+        <rdfs:label xml:lang="en">category</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#city -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#city">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la città.</rdfs:comment>
+        <rdfs:label xml:lang="it">città</rdfs:label>
+        <rdfs:label xml:lang="en">city</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#coordinatesReferencedSystem -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#coordinatesReferencedSystem">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta il sistema di coordinate di riferimento es. (WGS84)</rdfs:comment>
+        <rdfs:label xml:lang="en">coordinates referenced system</rdfs:label>
+        <rdfs:label xml:lang="it">sistema delle coordinate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#country -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#country">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta lo stato della destinazione es. (Italia)</rdfs:comment>
+        <rdfs:label xml:lang="en">country</rdfs:label>
+        <rdfs:label xml:lang="it">stato</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#creationDate -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#creationDate">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ItineraryUgc"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la data di creazione di un contenuto.</rdfs:comment>
+        <rdfs:label xml:lang="en">creation date</rdfs:label>
+        <rdfs:label xml:lang="it">data di creazione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Author"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Source"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la descrizione di un contenuto.</rdfs:comment>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+        <rdfs:label xml:lang="it">descrizione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#destinationType -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#destinationType">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="it">Questa classse rappresenta il tipo di destinazione (es. ristorante, hotel)</rdfs:comment>
+        <rdfs:label xml:lang="en">destination type</rdfs:label>
+        <rdfs:label xml:lang="it">tipo di destinazione</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#duration -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#duration">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="it">Questa proprietà rappresenta la durata dell&apos;evento.</rdfs:comment>
+        <rdfs:label xml:lang="it">durata</rdfs:label>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#endDateTime -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#endDateTime">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="it">Questa proprietà rappresenta la data della fine di un evento.</rdfs:label>
+        <rdfs:label xml:lang="it">data fine evento</rdfs:label>
+        <rdfs:label xml:lang="en">end date time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#virtualEvent -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#virtualEvent">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="it">Questa proprietà indica se l&apos;evento è virtuale.</rdfs:comment>
+        <rdfs:label xml:lang="it">evento virtuale</rdfs:label>
+        <rdfs:label xml:lang="en">virtual event</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -23,12 +414,542 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Entity -->
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Agent -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Entity">
-        <rdfs:comment xml:lang="it">Questa classe rappresenta un&apos;entità</rdfs:comment>
-        <rdfs:label xml:lang="it">Entità</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Agent">
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un agente, che può essere sia fisico (es. una persona) o sociale (es. una società, un&apos;istituzione).</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:label xml:lang="it">Agente</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Article -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Article">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasParagraph"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#creationDate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un determinato articolo editoriale.</rdfs:comment>
+        <rdfs:label xml:lang="en">Article</rdfs:label>
+        <rdfs:label xml:lang="it">Articolo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Author -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Author">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Agent"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#authorImage"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Agent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta l&apos;autore di un contenuto.</rdfs:comment>
+        <rdfs:label xml:lang="en">Author</rdfs:label>
+        <rdfs:label xml:lang="it">Autore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Characteristic -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Characteristic">
+        <rdfs:comment xml:lang="it">Questa classe rappresenta le caratteristiche, intese come aspetti, attributi o qualità di un&apos; entità.</rdfs:comment>
+        <rdfs:label xml:lang="it">Caratteristica</rdfs:label>
+        <rdfs:label xml:lang="en">Characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasPartnerRecordRestaurant"/>
+                        <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#category"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#destinationType"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasPartnerRecordRestaurant"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta una destinazione (es. città, museo, ristorante etc..)</rdfs:comment>
+        <rdfs:label xml:lang="en">Destination</rdfs:label>
+        <rdfs:label xml:lang="it">Destinazione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#DestinationDetail">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Characteristic"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#country"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#addressArea"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#altitude"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#coordinatesReferencedSystem"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Characteristic"/>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta i dettagli di una specifica destinazione. es. address, listOfServices etc..</rdfs:comment>
+        <rdfs:label xml:lang="en">Destination Detail</rdfs:label>
+        <rdfs:label xml:lang="it">Dettagli destinazione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Event -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Event">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#EventOrSituation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#duration"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#agent"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#endDateTime"/>
+                        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#virtualEvent"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#EventOrSituation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasDestination"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un determinato evento.</rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+        <rdfs:label xml:lang="it">Evento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#EventOrSituation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#EventOrSituation">
+        <rdfs:comment xml:lang="it">Questa classe rappresenta ogni entità che scorre nel tempo.Es. concerti, gare, viaggi etc..</rdfs:comment>
+        <rdfs:label xml:lang="en">Event or Situation</rdfs:label>
+        <rdfs:label xml:lang="it">Evento o Situazione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Itinerary">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriod"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodFrom"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bestPeriodTo"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#hasDestination"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Destination"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#creationDate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta un itinerario.</rdfs:comment>
+        <rdfs:label xml:lang="it">Itinerario</rdfs:label>
+        <rdfs:label xml:lang="en">Itinerary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#ItineraryUgc -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ItineraryUgc">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#creationDate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta gli itinerari user generated contet, cioè gli itinerari generati dall&apos;utente.</rdfs:comment>
+        <rdfs:label xml:lang="it">Itinerario generato dall&apos;utente</rdfs:label>
+        <rdfs:label xml:lang="en">Itinerary ugc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Object -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object">
+        <rdfs:comment xml:lang="it">Questa classe rappresenta ogni entità che tende ad essere stabile in un tempo più o meno lungo; es. case, città, organizzazioni, opere d&apos;arte, articoli etc... Gli oggetti tendono a contrapporsi agli eventi che invece scorrono nel tempo.</rdfs:comment>
+        <rdfs:label xml:lang="en">Object</rdfs:label>
+        <rdfs:label xml:lang="it">Oggetto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Paragraph">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta il paragrafo di un particolare contenuto editoriale.</rdfs:comment>
+        <rdfs:label xml:lang="it">Paragrafo</rdfs:label>
+        <rdfs:label xml:lang="en">Paragraph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#PartnerRecordRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ambienceType"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#bookable"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#additionalManualTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aemTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#aiChosenTags"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta le informazioni relative ad un ristorante che provengono dal database di un partner.</rdfs:comment>
+        <rdfs:label xml:lang="en">Partner Record Restaurant</rdfs:label>
+        <rdfs:label xml:lang="it">Ristorante proveniente dal partner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Source -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Source">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Characteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#description"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta la risorsa di riferimento di un contenuto.</rdfs:comment>
+        <rdfs:label xml:lang="it">Fonte</rdfs:label>
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#TemporalEntity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#TemporalEntity">
+        <rdfs:comment xml:lang="it">Classe che rappresenta un entità di natura temporale.</rdfs:comment>
+        <rdfs:label xml:lang="it">Entità Temporale</rdfs:label>
+        <rdfs:label xml:lang="en">Temporal Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Roma -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Roma">
+        <hasPartnerRecordRestaurant rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ristorante_Palmieri"/>
+        <category>Città</category>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#Stefano -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Stefano">
+        <authorImage>Immagine</authorImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#concerto_primo_maggio -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#concerto_primo_maggio">
+        <hasDestination rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#Roma"/>
+        <endDateTime>01/05/2023</endDateTime>
+        <virtualEvent rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</virtualEvent>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#i_migliori_ristoranti_di_roma -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#i_migliori_ristoranti_di_roma">
+        <hasParagraph rdf:resource="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ristoranti_in_centro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#ristorante_Palmieri -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ristorante_Palmieri">
+        <ambienceType>Italiano</ambienceType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Stefano98212/AdaBoosting&#45;&#45;-Forest-Cover-Type/main/TDH022-Ontologia.owl#ristoranti_in_centro -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Stefano98212/AdaBoosting---Forest-Cover-Type/main/TDH022-Ontologia.owl#ristoranti_in_centro"/>
 </rdf:RDF>
 
 
